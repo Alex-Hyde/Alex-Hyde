@@ -69,6 +69,17 @@ The program includes analytics of task completion, a calendar, a file system wit
 | ![studySessions](https://github.com/Alex-Hyde/Big-Brain-Time/raw/main/study.gif) | ![calendar](https://github.com/Alex-Hyde/Big-Brain-Time/raw/main/calendar.gif) |
 
 # 🖥️ Real-time operating system
+
+This project involved designing a real-time executive (RTX) and implementing in on a `Keil MCB1700 board populated with an NXP LPC1768 microcontroller`.
+
+The following are features and high-level implementation details of the RTX:
+- A **memory management system** consisting mainly of a linked list that tracks all available memory blocks. The linked list itself (the memory block address and pointers to the next node) is built in a fixed amount of space in the kernel's memory.
+- A **multi-level priority queue** to manage processes that is also built in fixed memory. This is possible since the number of processes has a hard limit. The queue is used to select processes for execution during scheduling and preemption.
+- **Message-based inter-process communication** where messages are passed between processes by the kernel. Processes are blocked when trying to receive a message, until a message is available.
+- A **timing service** that allows messaged to be delivered after a delay. An interrupt with a corresponding timer interrupt handler is used to deliver the message.
+- **System console I/O and debugging support** which forwards characters from the keyboard to processes, and from processes to the display. This service is entirely interrupt based with no polling or busy waiting.
+
+
 # ♟️ Chess
 # 🚶 Walk-a-block
 # 🚢 Battleship
