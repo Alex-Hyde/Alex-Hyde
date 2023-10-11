@@ -7,6 +7,7 @@
 - [🖥️ Real-time operating system](#%EF%B8%8F-real-time-operating-system)
 - [♟️ Chess](#%EF%B8%8F-chess)
 - [🚶 Walk-a-block](#-walk-a-block)
+  * [🏆 2nd Place](#-received-the-commercialization-award-and-achieved-2nd-place-at-spark-hacks-2019-40-teams)
 - [🚢 Battleship](#-battleship)
 - [⛰️ Recusion graphics](#%EF%B8%8F-recusion-graphics)
 - [😎 Raycasting](#-raycasting)
@@ -82,12 +83,36 @@ The following are features and high-level implementation details of the RTX:
 
 # ♟️ Chess
 # 🚶 Walk-a-block
+An Android app that encourages walking to local businesses, rather than driving to or ordering from big chains, by rewarding users with coupons to get discounts on their purchases when they walk to the business.
+
+Uses Google Maps location data to periodically calculate speed to ensure the user isn't driving.
+
+### 🏆 Received the commercialization award and achieved 2nd place at Spark Hacks 2019 (40+ teams).
+- Worked with the town of Brampton and the Brampton Entrepreneur Centre's incubator program to develop and market the idea.
+
+| ![](https://github.com/Alex-Hyde/Alex-Hyde.github.io/raw/main/ProjectImages/Walkablock/1.1.PNG) | ![](https://github.com/Alex-Hyde/Alex-Hyde.github.io/raw/main/ProjectImages/Walkablock/1.2.PNG?raw=true) | ![](https://github.com/Alex-Hyde/Alex-Hyde.github.io/raw/main/ProjectImages/Walkablock/2.png) |
+| --- | --- | --- |
+
 # 🚢 Battleship
+
+Implementation of the classic game Battleship using an Arduino. The game is displayed on a 32x16 LED display and includes PvP multiplayer and PvE with multiple AI difficulties. Developed in a 5 person team.
+
+<img src="https://github.com/Alex-Hyde/Alex-Hyde.github.io/blob/main/ProjectImages/Battleship/1.png?raw=true" width="500"/>
+<img src="https://github.com/Alex-Hyde/Alex-Hyde.github.io/blob/main/ProjectImages/Battleship/2.PNG?raw=true" width="500"/>
+<img src="https://github.com/Alex-Hyde/Alex-Hyde.github.io/blob/main/ProjectImages/Battleship/3.PNG?raw=true" width="500"/>
+
 # ⛰️ Recusion graphics
 # 😎 Raycasting
 # 🎲 Dice game
 # 🕵️ Wordsearch game
 # 🏞️ Town of Aurora Parks and Trails
+
+An Android app that connects people to local parks, trails, and events using Google Maps API.
+
+| ![alt text](https://github.com/Alex-Hyde/Alex-Hyde.github.io/blob/main/ProjectImages/AuroraParks/1.png?raw=true) | ![alt text](https://github.com/Alex-Hyde/Alex-Hyde.github.io/blob/main/ProjectImages/AuroraParks/2.png?raw=true)
+| --- | --- |
+| ![alt text](https://github.com/Alex-Hyde/Alex-Hyde.github.io/blob/main/ProjectImages/AuroraParks/4.png?raw=true) | ![alt text](https://github.com/Alex-Hyde/Alex-Hyde.github.io/blob/main/ProjectImages/AuroraParks/5.png?raw=true) |
+
 
 <!--
 **Alex-Hyde/Alex-Hyde** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
