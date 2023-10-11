@@ -53,6 +53,21 @@ This game was developed utilizing a ReactJS front end, paired with a Firebase ba
 | ![](https://github.com/Alex-Hyde/crazy-beans/blob/master/SpecialSuccess.gif) | ![](https://github.com/Alex-Hyde/crazy-beans/blob/master/SpecialFail.gif) |
 
 # 🧠 Big brain time
+
+[READ MORE!](https://github.com/Alex-Hyde/Big-Brain-Time)
+
+Big Brain Time is a task management program made in Python with use of the Pygame module.
+- All components are made entirely from scratch by drawing shapes, icons, and text.
+- To make the program window resizable (Which is not a standard pygame feature), a <b>custom, dynamic, relative rendering module</b> was written for the project to allow all elements on screen to be rendered relative to other elements or relative to the window itself, rather than a fixed x,y position.
+- All of the logic for propagating events such as mouse clicks and key presses is written from scratch.
+
+The program includes analytics of task completion, a calendar, a file system with sorting options, different UI themes, and study sessions based on the Pomodoro Technique.
+
+| ![menu](https://github.com/Alex-Hyde/Big-Brain-Time/blob/main/Menupreview.gif) | ![resizing](https://github.com/Alex-Hyde/Big-Brain-Time/raw/main/resize.gif) |
+| --- | --- |
+| ![selectingTheme](https://github.com/Alex-Hyde/Big-Brain-Time/blob/main/settings.gif) | ![colourOptions](https://github.com/Alex-Hyde/Alex-Hyde.github.io/blob/main/ProjectImages/Planner/5.png) |
+| ![studySessions](https://github.com/Alex-Hyde/Big-Brain-Time/raw/main/study.gif) | ![calendar](https://github.com/Alex-Hyde/Big-Brain-Time/raw/main/calendar.gif) |
+
 # 🖥️ Real-time operating system
 # ♟️ Chess
 # 🚶 Walk-a-block
