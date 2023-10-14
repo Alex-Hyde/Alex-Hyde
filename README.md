@@ -102,6 +102,14 @@ Implementation of the classic game Battleship using an Arduino. The game is disp
 <img src="https://github.com/Alex-Hyde/Alex-Hyde.github.io/blob/main/ProjectImages/Battleship/3.PNG?raw=true" width="500"/>
 
 # ⛰️ Recusion graphics
+
+Program that generates and renders several fractal designs using recursion, including trees, mountains and bushes.
+
+| <img alt="Screenshot 2023-10-14 at 12 35 45 AM" src="https://github.com/Alex-Hyde/Alex-Hyde/assets/56458804/e31a258f-0f3f-44d2-8dda-6a3df1e8fc95"> | ![Untitled2](https://github.com/Alex-Hyde/Alex-Hyde/assets/56458804/395cd3d0-045e-49e0-ac7c-09d5382f23ae) |
+| --- | --- |
+| ![Screen Recording 2023-10-14 at 1 04 33 AM](https://github.com/Alex-Hyde/Alex-Hyde/assets/56458804/96db97db-4c20-4cc2-8a06-4d1374b997b5) | <img alt="Screenshot 2023-10-14 at 12 46 46 AM" src="https://github.com/Alex-Hyde/Alex-Hyde/assets/56458804/217b8d8a-7f0c-4d6f-830e-14d83531c14b"> |
+
+
 # 😎 Raycasting
 # 🎲 Dice game
 # 🕵️ Wordsearch game
