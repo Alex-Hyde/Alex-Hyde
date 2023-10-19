@@ -132,6 +132,10 @@ The UI employs 3D rendering techniques and a lot of trigonometry to simulate a d
 | ![dicegame3 (1)](https://github.com/Alex-Hyde/Alex-Hyde/assets/56458804/572596be-2c73-49fe-85bf-ccb5cd46c6db) | ![dicegame2](https://github.com/Alex-Hyde/Alex-Hyde/assets/56458804/e19945fa-f01a-4b28-ba3e-79213ae6f0f5) |
 | --- | --- |
 # 🕵️ Wordsearch game
+Just a classic game of wordsearch with smooth word highlighting.
+
+https://github.com/Alex-Hyde/Alex-Hyde/assets/56458804/7ce7e552-cc3a-4d8f-bf0f-45e4ca8f27b9
+
 # 🏞️ Town of Aurora Parks and Trails
 
 An Android app that connects people to local parks, trails, and events using Google Maps API.
