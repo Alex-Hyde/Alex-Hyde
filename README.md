@@ -46,7 +46,7 @@ Crazy Beans is a chaotic multiplayer card game developed by
 
 [Alex Hyde](https://github.com/Alex-Hyde)<br>
 [Sebastian Villate](https://github.com/Sebvillate)<br>
-[Kevin Lee](https://github.com/li-kevin-987)<br>
+[Kevin Li](https://github.com/li-kevin-987)<br>
 
 This game was developed utilizing a ReactJS front end, paired with a Firebase backend to power online multiplayer functionality.
 | ![](https://github.com/Alex-Hyde/crazy-beans/blob/master/Join.gif) | ![](https://github.com/Alex-Hyde/crazy-beans/blob/master/Gameplay.gif) |
@@ -80,8 +80,12 @@ The following are features and high-level implementation details of the RTX:
 - A **timing service** that allows messaged to be delivered after a delay. An interrupt with a corresponding timer interrupt handler is used to deliver the message.
 - **System console I/O and debugging support** which forwards characters from the keyboard to processes, and from processes to the display. This service is entirely interrupt based with no polling or busy waiting.
 
-
 # ♟️ Chess
+This project was an implementation of the classic game of chess. The game supports player vs. player and player vs. computer gameplay. The computer "player" can be chosen from multiple different difficulties. The most notable part of this project was the planning phase and the incorporation of multiple design patterns to create a very efficient, flexible, and easy to develop architecture. Some of these design patterns included:
+- **Observer Design Pattern**: Used by the different UI displays (text output & graphical display) to observe changes that occur on the game board and update the UI accordingly.
+- **Decorator Design Pattern**: THe computer player class is implemented with the decorator pattern, where the basic level 1 computer player can be decorated with other difficulties. Each decorator level changes the values that are assigned to moves. Lower level decorators prioritize randomness and immediate captures. Higher level decorators look into the future and prioritize strategy. In the end, the move with the highest value is selected.
+- **Resource Acquisition Is Initialization (RAII)**: The entire system incorporates this design pattern by using unique pointers for object creation, with no calls to `new` or `delete`. This significantly simplifies memory management, since all objects are destructed when they go out of scope.
+
 # 🚶 Walk-a-block
 An Android app that encourages walking to local businesses, rather than driving to or ordering from big chains, by rewarding users with coupons to get discounts on their purchases when they walk to the business.
 
