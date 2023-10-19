@@ -7,13 +7,14 @@
 - [🖥️ Real-time operating system](#%EF%B8%8F-real-time-operating-system)
 - [♟️ Chess](#%EF%B8%8F-chess)
 - [🚶 Walk-a-block](#-walk-a-block)
-  * [🏆 2nd Place](#-received-the-commercialization-award-and-achieved-2nd-place-at-spark-hacks-2019-40-teams)
+  * [🏆](#-received-the-commercialization-award-and-achieved-2nd-place-at-spark-hacks-2019-40-teams)
 - [🚢 Battleship](#-battleship)
 - [⛰️ Recusion graphics](#%EF%B8%8F-recusion-graphics)
 - [😎 Raycasting](#-raycasting)
 - [🎲 Dice game](#-dice-game)
 - [🕵️ Wordsearch game](#%EF%B8%8F-wordsearch-game)
 - [🏞️ Town of Aurora Parks and Trails](#%EF%B8%8F-town-of-aurora-parks-and-trails)
+  * [🏆](#-won-first-place-at-the-aurora-hackathon-in-2019)
 
 # 🚀 Galacticolour - [Try it Yourself!](https://alex-hyde.github.io/galacticolour/)
 
@@ -81,7 +82,9 @@ The following are features and high-level implementation details of the RTX:
 - **System console I/O and debugging support** which forwards characters from the keyboard to processes, and from processes to the display. This service is entirely interrupt based with no polling or busy waiting.
 
 # ♟️ Chess
-This project was an implementation of the classic game of chess. The game supports player vs. player and player vs. computer gameplay. The computer "player" can be chosen from multiple different difficulties. The most notable part of this project was the planning phase and the incorporation of multiple design patterns to create a very efficient, flexible, and easy to develop architecture. Some of these design patterns included:
+This project was an implementation of the classic game of chess. The game supports player vs. player and player vs. computer gameplay. The computer "player" can be chosen from multiple different difficulties. The most notable part of this project was the planning phase and the incorporation of multiple design patterns in the architecture diagram to create a very efficient, flexible, and easy to develop system.
+
+Some of these design patterns included:
 - **Observer Design Pattern**: Used by the different UI displays (text output & graphical display) to observe changes that occur on the game board and update the UI accordingly.
 - **Decorator Design Pattern**: THe computer player class is implemented with the decorator pattern, where the basic level 1 computer player can be decorated with other difficulties. Each decorator level changes the values that are assigned to moves. Lower level decorators prioritize randomness and immediate captures. Higher level decorators look into the future and prioritize strategy. In the end, the move with the highest value is selected.
 - **Resource Acquisition Is Initialization (RAII)**: The entire system incorporates this design pattern by using unique pointers for object creation, with no calls to `new` or `delete`. This significantly simplifies memory management, since all objects are destructed when they go out of scope.
@@ -125,6 +128,8 @@ An Android app that connects people to local parks, trails, and events using Goo
 | --- | --- |
 | ![alt text](https://github.com/Alex-Hyde/Alex-Hyde.github.io/blob/main/ProjectImages/AuroraParks/4.png?raw=true) | ![alt text](https://github.com/Alex-Hyde/Alex-Hyde.github.io/blob/main/ProjectImages/AuroraParks/5.png?raw=true) |
 
+### 🏆 Won first place at the Aurora Hackathon in 2019.
+- Presented the idea to the Town of Aurora and worked with the town to determine the feasability of further developing and deploying the app.
 
 <!--
 **Alex-Hyde/Alex-Hyde** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
