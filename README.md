@@ -125,6 +125,12 @@ https://github.com/Alex-Hyde/Alex-Hyde/assets/56458804/ee4ea587-2e48-435b-9096-6
 https://github.com/Alex-Hyde/Alex-Hyde/assets/56458804/cb2dbd99-e283-4d26-907a-1d33d2d01aec
 
 # 🎲 Dice game
+A game where a player roll 6 - 10 dice and has to calculate the points from the dice. If they guess right, the points are added to their score. If they guess wrong, they get nothing. The points are determined by the sum of the squared values in the longest consecutive sequence from a set of rolled die.
+
+The UI employs 3D rendering techniques and a lot of trigonometry to simulate a die rolling and bouncing on the table before eventually settling and displaying a value.
+
+| ![dicegame3 (1)](https://github.com/Alex-Hyde/Alex-Hyde/assets/56458804/572596be-2c73-49fe-85bf-ccb5cd46c6db) | ![dicegame2](https://github.com/Alex-Hyde/Alex-Hyde/assets/56458804/e19945fa-f01a-4b28-ba3e-79213ae6f0f5) |
+| --- | --- |
 # 🕵️ Wordsearch game
 # 🏞️ Town of Aurora Parks and Trails
 
